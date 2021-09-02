@@ -1,4 +1,4 @@
-
+<p id="notice"><%= notice %></p>
 
 <% if user_signed_in? %>
 
@@ -43,3 +43,26 @@
   <h1>Hello World!</h1>
   This is my first Rails Webpage...
 <% end %>
+
+<p id="notice"><%= notice %></p>
+
+<h1>Products</h1>
+
+    <div class="row">
+  <% @products.each do |product| %>
+  <div class ="col-lg-4">
+  <div class="card" style="width: 13rem;">
+  <img src=https://www.bestbuysoccer.com/media/catalog/product/cache/1/image/510x/602f0fa2c1f0d1ba5e241f914e856ff9/t/-/t-shirt-men-blank-cotton-tee-shirt-man-tshirts-bodybuilding-bulk-plain-chemise-white-crew-neck.jpg class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title"><%= product.product_name %></h5>
+    <p class="card-text"><%= product.description %></p>
+
+    <a href="/products/<%= product.id %>"  class="btn btn-primary">View Product</a>
+  </div>
+  </div>
+  </div>
+  <% end %>
+  </div>
+
+
+<%= link_to 'New Product', new_product_path %>
