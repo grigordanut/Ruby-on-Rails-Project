@@ -1,4 +1,4 @@
-# Product Ruby on Rails App
+# Product E-commerce Ruby on Rails App
 
 This is Product Ruby on Rails Project
 
