@@ -1,6 +1,6 @@
-# Product E-commerce Ruby on Rails App
+# Product News Ruby on Rails App
 
-This is Product Ruby on Rails Project
+This is the Dublin Latest News Ruby on Rails Project
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
@@ -23,5 +23,6 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+* https://dublinlatestnews.herokuapp.com/
+  
 # Ruby-on-Rails-Project
