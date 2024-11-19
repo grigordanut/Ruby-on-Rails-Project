@@ -1,6 +1,4 @@
-# Product News Ruby on Rails App
-
-This is the Dublin Latest News Ruby on Rails Project
+# Dublin Latest News Ruby on Rails App
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
